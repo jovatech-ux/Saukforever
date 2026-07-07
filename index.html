@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio | Josua</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a href="#home" class="brand">Sauk<span>Forever</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Buka menu">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow">Halo, saya</p>
+          <h1><span class="accent">Josua</span><br>Web Developer & Designer</h1>
+          <p class="lead">Saya membuat website modern, responsif, dan cepat untuk personal branding, bisnis, dan project digital.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">Lihat Project</a>
+            <a class="btn secondary" href="#contact">Hubungi Saya</a>
+          </div>
+          <div class="socials">
+            <a href="https://www.facebook.com/Sinda.josua" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Tiktok</a>
+          </div>
+        </div>
+        <div class="hero-card reveal">
+          <div class="photo-wrap">
+            <img src="images/fotoku.jpg" alt="Foto Nama Kamu" class="profile-photo">
+          </div>
+          <div class="stats">
+            <div><strong>10+</strong><span>Project</span></div>
+            <div><strong>2+</strong><span>Tahun Belajar</span></div>
+            <div><strong>100%</strong><span>Semangat</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container split">
+        <div class="card reveal">
+          <h2>Tentang Saya</h2>
+          <p>Saya masih berkembang, tetapi saya serius belajar membuat website yang rapi, fungsional, dan enak dilihat. Fokus saya ada di HTML, CSS, JavaScript, dan membangun tampilan yang nyaman dipakai.</p>
+        </div>
+        <div class="card reveal">
+          <h2>Yang Saya Kerjakan</h2>
+          <ul class="checklist">
+            <li>Website profil dan portofolio</li>
+            <li>Landing page bisnis</li>
+            <li>UI sederhana untuk aplikasi web</li>
+            <li>Project mobile hybrid dengan Cordova/Ionic</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <div class="section-title reveal">
+          <p class="eyebrow">Kemampuan</p>
+          <h2>Skill Utama</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill card reveal"><span>HTML</span><div class="bar"><i style="width:92%"></i></div></div>
+          <div class="skill card reveal"><span>CSS</span><div class="bar"><i style="width:88%"></i></div></div>
+          <div class="skill card reveal"><span>JavaScript</span><div class="bar"><i style="width:76%"></i></div></div>
+          <div class="skill card reveal"><span>Responsive Design</span><div class="bar"><i style="width:90%"></i></div></div>
+          <div class="skill card reveal"><span>Git & GitHub</span><div class="bar"><i style="width:70%"></i></div></div>
+          <div class="skill card reveal"><span>Cordova / Ionic</span><div class="bar"><i style="width:64%"></i></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-title reveal">
+          <p class="eyebrow">Portofolio</p>
+          <h2>Project Pilihan</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project card reveal">
+            <div class="project-thumb"> <img src="images/project1.gif" alt="Project 1" class="project-img"></div>
+            <h3>Website Portofolio</h3>
+            <p>Website personal untuk menampilkan profil, skill, dan kontak secara profesional.</p>
+            <a href="#">Demo Project</a>
+          </article>
+          <article class="project card reveal">
+            <div class="project-thumb"><img src="images/project2.gif" alt="project 2"
+class="project-img"></div>
+            <h3>Landing Page Bisnis</h3>
+            <p>Halaman promosi yang fokus ke konversi, cocok untuk usaha kecil atau personal brand.</p>
+            <a href="#">Demo Project</a>
+          </article>
+          <article class="project card reveal">
+            <div class="project-thumb"><img src="images/project3.gif" alt="project 3"
+class="project-img"></div>
+            <h3>App Hybrid</h3>
+            <p>Project web yang diarahkan menjadi aplikasi Android lewat Cordova/Ionic.</p>
+            <a href="#">Demo Project</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container quote reveal">
+        <p>“Desain yang bagus bukan hanya terlihat keren, tapi juga mudah dipakai dan cepat dipahami.”</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div class="card reveal">
+          <p class="eyebrow">Kontak</p>
+          <h2>Hubungi Saya</h2>
+          <p>Kalau kamu ingin kolaborasi atau tanya soal project, kirim pesan lewat form di sebelah.</p>
+          <div class="contact-info">
+            <div><strong>Email</strong><span>Josuayangganteng@gmail.com</span></div>
+            <div><strong>Lokasi</strong><span>Manado, Indonesia</span></div>
+          </div>
+        </div>
+        <form class="card form reveal">
+          <input type="text" placeholder="Nama" />
+          <input type="email" placeholder="Email" />
+          <textarea rows="5" placeholder="Pesan"></textarea>
+          <button class="btn primary" type="button">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-row">
+      <p>© 2026 Josua ganteng banget Anjay</p>
+      <a href="#home">Kembali ke atas</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
